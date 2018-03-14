@@ -21,7 +21,7 @@ if($check->isLoged($_SESSION)){
 
   <div id="login-box">
     <div id="login-box-interno">
-      <div id="login-box-titulo"> Curso - Joseph </div>
+      <div id="login-box-titulo">Login</div>
       <form method="POST" name="form-login" action="validarLogin.php">
       <div class="input-div" id="input-usuario"><input type="text" id="usuario" name="usuario" placeholder="Usuário"></div>
       <div class="input-div" id="input-senha"><input type="password" id="senha" name="senha" placeholder="Senha"></div>
