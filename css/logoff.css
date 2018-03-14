@@ -1,0 +1,77 @@
+body{
+	background-color: #11a6d4;
+}
+div#logoff-box{
+	background-color: #1992b7;
+	width:380px;
+	height:260px;
+	margin: 140px auto 0px;
+	border-radius: 5px;
+}
+div#logoff-box-interno{
+	background-color: #fdfdfd;
+	width: 360px;
+	height: 240px;
+	position: absolute;
+	margin:10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px black;
+	overflow: hidden;
+}
+div#logoff-box-titulo{
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */;
+	height: 45px;
+	text-align: center;
+	font: bold 14px/45px sans-serif;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid #bfc3c5;
+	box-shadow: 1px 0px 3px #dedede;
+	color: #555555;
+	text-shadow: 1px 0px 1px white;
+}
+div.input-div{
+	margin: 20px;
+	padding: 5px;
+	border-radius: 3px;
+	text-align: center;
+	font: bold 18px/30px sans-serif;
+	color: red;
+	margin-top: 40px;
+}
+div#input-botoes{
+	width: 310px;
+	margin-left: 25px;
+}
+div#input-botoes label{
+	font: normal 12px sans-serif;
+}
+div#input-botoes button{
+	float: right;
+	padding: 5px 15px;
+	border-radius: 20px;
+	border:0px solid black;
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+		background: #feffff; /* Old browsers */
+		background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */;
+	font: bold 12px sans-serif;
+	text-shadow: 1px white;
+	border: 1px solid #9eb9c3;
+}
+div#input-botoes button:hover{
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a0d8ef+0,ddf1f9+65,feffff+100 */
+		background: #a0d8ef; /* Old browsers */
+		background: -moz-linear-gradient(top, #a0d8ef 0%, #ddf1f9 65%, #feffff 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #a0d8ef 0%,#ddf1f9 65%,#feffff 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #a0d8ef 0%,#ddf1f9 65%,#feffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */;
+
+}
