@@ -41,7 +41,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`nome`, `sobrenome`, `user`, `pass`, `ID`) VALUES
-('Joseph', 'Martins', 'joseph', 'joseph', 1);
+('Administrador', 'Sistema', 'admin', 'admin', 1);
 
 --
 -- Indexes for dumped tables
